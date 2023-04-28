@@ -46,5 +46,6 @@ mongoose
     // KPI.insertMany(kpis);
 
     // Product.insertMany(products);
+    // Transaction.insertMany(transactions);
   })
   .catch((error) => console.log(`${error} did not connect`));
